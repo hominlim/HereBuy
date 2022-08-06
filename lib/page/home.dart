@@ -190,7 +190,6 @@ class _HomeState extends State<Home> {
               child: CircularProgressIndicator(),
             );
           }
-
           if (snapshot.hasError) {
             return Center(
               child: Text("데이터오류"),

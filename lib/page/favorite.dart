@@ -124,15 +124,15 @@ class _MyFavoriteContentsState extends State<MyFavoriteContents> {
               child: CircularProgressIndicator(),
             );
           }
-          if (snapshot.hasData) {
-            // return _makeDataList(snapshot.data as List<Map<String, String>>);
-            // return _makeDataList(snapshot.data ?? []);
-            return _makeDataList(snapshot.data as List<dynamic>);
-          }
           if (snapshot.hasError) {
             return Center(
               child: Text("데이터오류"),
             );
+          }
+          if (snapshot.hasData) {
+            // return _makeDataList(snapshot.data as List<Map<String, String>>);
+            // return _makeDataList(snapshot.data ?? []);
+            return _makeDataList(snapshot.data as List<dynamic>);
           }
 
           return Center(

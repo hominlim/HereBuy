@@ -1,4 +1,4 @@
-import 'package:carrot_test/page/favorite.dart';
+import 'package:carrot_test/page/MyInformation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
@@ -35,7 +35,8 @@ class _AppState extends State<App> {
         return Container();
         break;
       case 4:
-        return MyFavoriteContents();
+        // return MyFavoriteContents();
+        return MyInformation();
         break;
     }
     return Container();
@@ -69,10 +70,10 @@ class _AppState extends State<App> {
         selectedFontSize: 12.0,
         items: [
           _bottomNavigationBarItem("home", "홈"),
-          _bottomNavigationBarItem("notes", "동네"),
-          _bottomNavigationBarItem("location", "근처"),
+          _bottomNavigationBarItem("location", "생활"),
+          _bottomNavigationBarItem("notes", "등록"),
           _bottomNavigationBarItem("chat", "채팅"),
-          _bottomNavigationBarItem("user", "마이"),
+          _bottomNavigationBarItem("user", "내정보"),
         ]);
   }
 
