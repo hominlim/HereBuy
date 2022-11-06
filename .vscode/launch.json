@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "carrot_test",
+            "name": "HereBuy",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "carrot_test (profile mode)",
+            "name": "HereBuy (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
