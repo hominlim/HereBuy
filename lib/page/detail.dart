@@ -402,7 +402,7 @@ class _DetailContentViewState extends State<DetailContentView>
                     color: Color.fromARGB(255, 140, 108, 226),
                   ),
                   child: Text(
-                    "채팅으로 거래하기",
+                    "Chatting",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,
